@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main()
+void main()
 {
     long long n;
     int count = 0;
 
-    printf("Enter an integer: ");
+    printf("Enter an integer ");
     scanf("%lld", &n);
 
     while(n != 0)
@@ -13,5 +13,6 @@ int main()
         ++count;
     }
 
-    printf(" the number of digits: %d", count);
+    printf(" the number of digits%d", count);
+    getch();
 }
